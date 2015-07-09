@@ -2,7 +2,7 @@ ctDynamicsSL RESTful API Overview
 =======
 ctDynamicsSL has th ability to be accessed via RESTful API calls.
 
-# Prerequisites
+### Prerequisites
 
 To start with ctDynamicsSL, you must have the following: 
 
@@ -11,7 +11,7 @@ To start with ctDynamicsSL, you must have the following:
 * APIKey:  This is an application API key your ctDynamicsSL administrator will give you
 * Secret Key:  This is a secret pass code your ctDynamicsSL administrator will give you
 
-# Authentication for ctDynamicsSL requires the following
+### Authentication for ctDynamicsSL requires the following
 You must pass a custom HTTP Header called Authentication to the web REST API service.  This is in the form of the following information:
 
 
