@@ -1,6 +1,6 @@
 ctDynamicsSL RESTful API Overview
 =======
-ctDynamicsSL has th ability to be accessed via RESTful API calls.
+ctDynamicsSL has the ability to be accessed via RESTful API calls.
 
 * [Prerequisites](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/ctDynamicsSL-RESTful-API-Overview)
 * [Authentication](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/ctDynamicsSL-RESTful-API-Overview)
