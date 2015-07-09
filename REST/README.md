@@ -11,8 +11,7 @@ To start with ctDynamicsSL, you must have the following:
 * APIKey:  This is an application API key your ctDynamicsSL administrator will give you
 * Secret Key:  This is a secret pass code your ctDynamicsSL administrator will give you
 
-## Accounts Receivable Web Service
-### Authentication for ctDynamicsSL requires the following
+# Authentication for ctDynamicsSL requires the following
 You must pass a custom HTTP Header called Authentication to the web REST API service.  This is in the form of the following information:
 
 
@@ -33,6 +32,9 @@ You would then pass that as an HTTP Header called "Authorization".  An example i
 
 Looking at the code example, you would replace the *[MyBase64AuthString]* with your authorization string.  You would also change the URL in the WebRequest.Create() to match the endpoint you are accessing.
 
+
+
+## Accounts Receivable Web Service
 
 
 ## Payment Entry
