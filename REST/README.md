@@ -23,7 +23,7 @@ Payment Entry requires several steps to create a payment entry:
 4. Save the screen back to the web service
  
 
-#### Get new Payment Entry Screen
+#### Get new Payment Entry Screen from a template
 * **Description**: Creates a new Payment Entry screen and fills in defaults.  You can pass a template screen object for initial values.
 * **Endpoint**: /api/accountsReceivable/paymentEntry/templates/getNewScreen
 * **HTTP Method**: ``POST``
@@ -31,6 +31,31 @@ Payment Entry requires several steps to create a payment entry:
 * **Response PayLoad**: ``PaymentEntryScreen`` object returned with defaults created
 * **Online Help**: [Help]()
 
+#### Get new ARTran from a template
+* **Description**: Will create an ARTran object, filling in defaults of fields not passed in the template.
+* **Endpoint**: /api/accountsReceivable/paymentEntry/templates/getNewARTran
+* **HTTP Method**: ``POST``
+* **Request PayLoad**: ``ARTran``
+* **Response PayLoad**: ``ARTran`` object returned with defaults created
+* **Online Help**: [Help]()
+
+
+#### Save a new Payment Entry Screen
+* **Description**: This will create a new payment entry screen in SL based on the screen passed.  Defaults will be set on fields not sent. 
+* **Endpoint**: /api/accountsReceivable/paymentEntry/screen
+* **HTTP Method**: ``POST``
+* **Request PayLoad**: ``PaymentEntryScreen``
+* **Response PayLoad**: ``PaymentEntryScreen`` object returned with defaults created
+* **Online Help**: [Help]()
+
+
+#### Update an existing Payment Entry Screen
+* **Description**: This will update an existing Payment Entry screen based on the object passed 
+* **Endpoint**: /api/accountsReceivable/paymentEntry/screen
+* **HTTP Method**: ``PUT``
+* **Request PayLoad**: ``PaymentEntryScreen``
+* **Response PayLoad**: ``PaymentEntryScreen`` object returned with defaults created
+* **Online Help**: [Help]()
 
 # HTTP Request PayLoads
 
