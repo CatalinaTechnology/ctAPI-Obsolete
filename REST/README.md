@@ -48,7 +48,7 @@ Payment Entry requires several steps to create a payment entry:
 
 #### Retrieve an existing payment entry screen
 * **Description**: Retrieves an existing payment entry screen based on the batNbr passed
-* **Endpoint**: /api/accountsReceivable/paymentEntry/screen/{batNbr]
+* **Endpoint**: /api/accountsReceivable/paymentEntry/screen/{batNbr}
 * **HTTP Method**: ``GET``
 * **Request PayLoad**: No Payload
 * **Response PayLoad**: ``PaymentEntryScreen`` object returned that matches the batNbr passed
