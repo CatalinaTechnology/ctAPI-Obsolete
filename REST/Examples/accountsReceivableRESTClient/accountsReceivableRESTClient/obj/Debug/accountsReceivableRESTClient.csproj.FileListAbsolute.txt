@@ -1,0 +1,8 @@
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\bin\Debug\accountsReceivableRESTClient.exe.config
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\obj\Debug\accountsReceivableRESTClient.csprojResolveAssemblyReference.cache
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\bin\Debug\accountsReceivableRESTClient.exe
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\bin\Debug\accountsReceivableRESTClient.pdb
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\bin\Debug\Newtonsoft.Json.dll
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\bin\Debug\Newtonsoft.Json.xml
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\obj\Debug\accountsReceivableRESTClient.exe
+E:\Source\Solomon Integration\accountsReceivableRESTClient\accountsReceivableRESTClient\obj\Debug\accountsReceivableRESTClient.pdb
