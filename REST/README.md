@@ -27,6 +27,24 @@ Payment Entry requires several steps to create a payment entry:
 * **Description**: Creates a new Payment Entry screen and fills in defaults.  You can pass a template screen object for initial values.
 * **Endpoint**: /api/accountsReceivable/paymentEntry/templates/getNewScreen
 * **HTTP Method**: ``POST``
-* **Request PayLoad**: ``Screen``
-* **Response PayLoad**: ``Screen`` object returned with defaults created
+* **Request PayLoad**: ``PaymentEntryScreen``
+* **Response PayLoad**: ``PaymentEntryScreen`` object returned with defaults created
 * **Online Help**: [Help]()
+
+
+# HTTP Request PayLoads
+
+## PaymentEntryScreen 
+This is used to retrieve and set the Payment Entry screen in Dynamics SL AR.
+
+| Attribute                  | Description    | 
+| -------------------------- | :------------- | 
+| Batch                     | Batch(myBatch) | 
+
+## Batch
+Description for Batch
+
+| Attribute                  | Description    | 
+| -------------------------- | :------------- | 
+| BatNbr                     | This is the batch number for the batch | 
+
