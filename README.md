@@ -1,5 +1,4 @@
-Testing
+ctDynamicsSL
 =======
-1. bullet 1
-2. bullet 2
-3. bullet 3asdfasdfasfasdf asdfasdfasdf asdfasdfasdf asdfas sdfa asdf asdf asdf asdf asdf asdfasdfasdfasdfasdf asdf asdf asdf asdf asfasf asf asdf asdf asdf  asdf asdf asdf asdf asdf asdf asdf asd fas df asdf
+ctDynamicsSL is the Catalina Technology web services API for Dynamics SL.  ctDynamicsSL allows you to integrate external applications, mobile apps, and other systems to Dynamics SL using SOAP or RESTful API web service calls.
+
