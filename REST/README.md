@@ -24,7 +24,7 @@ Payment Entry requires several steps to create a payment entry:
  
 
 #### Get new Payment Entry Screen
-* **Description**: This is used to create payment entries.  There are several steps to do this
+* **Description**: Creates a new Payment Entry screen and fills in defaults.  You can pass a template screen object for initial values.
 * **Endpoint**: /api/accountsReceivable/paymentEntry/templates/getNewScreen
 * **HTTP Method**: ``POST``
 * **Request PayLoad**: ``Screen``
