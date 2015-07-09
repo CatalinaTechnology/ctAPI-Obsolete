@@ -37,7 +37,7 @@ Looking at the code example, you would replace the *[MyBase64AuthString]* with y
 
 ## Payment Entry
 ### Managing Screens, Batches, ARDoc, and ARTran
-#### Create a Payment Entry
+#### Create a payment entry
 Payment Entry requires several steps to create a payment entry:
 
 1. create the screen object
@@ -54,8 +54,8 @@ Payment Entry requires several steps to create a payment entry:
 * **Response PayLoad**: ``PaymentEntryScreen`` object returned that matches the batNbr passed
 * **Online Help**: [Help]()
 
-#### Get new Payment Entry Screen from a template
-* **Description**: Creates a new Payment Entry screen and fills in defaults.  You can pass a template screen object for initial values.
+#### Get new payment entry screen from a template
+* **Description**: Creates a new payment entry screen and fills in defaults.  You can pass a template screen object for initial values.
 * **Endpoint**: /api/accountsReceivable/paymentEntry/templates/getNewScreen
 * **HTTP Method**: ``POST``
 * **Request PayLoad**: ``PaymentEntryScreen``
@@ -71,7 +71,7 @@ Payment Entry requires several steps to create a payment entry:
 * **Online Help**: [Help]()
 
 
-#### Save a new Payment Entry Screen
+#### Save a new payment entry screen
 * **Description**: This will create a new payment entry screen in SL based on the screen passed.  Defaults will be set on fields not sent. 
 * **Endpoint**: /api/accountsReceivable/paymentEntry/screen
 * **HTTP Method**: ``POST``
@@ -80,8 +80,8 @@ Payment Entry requires several steps to create a payment entry:
 * **Online Help**: [Help]()
 
 
-#### Update an existing Payment Entry Screen
-* **Description**: This will update an existing Payment Entry screen based on the object passed 
+#### Update an existing payment entry Screen
+* **Description**: This will update an existing payment entry screen based on the object passed 
 * **Endpoint**: /api/accountsReceivable/paymentEntry/screen
 * **HTTP Method**: ``PUT``
 * **Request PayLoad**: ``PaymentEntryScreen``
@@ -102,7 +102,7 @@ ctDynamicsSL web services also allow you to do your typical PV Lookups for certa
 # HTTP Request PayLoads
 
 ## PaymentEntryScreen 
-This is used to retrieve and set the Payment Entry screen in Dynamics SL AR.
+This is used to retrieve and set the payment entry screen in Dynamics SL AR.
 
 | Attribute                  | Description    | 
 | -------------------------- | :------------- | 
