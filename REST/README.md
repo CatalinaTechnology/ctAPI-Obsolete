@@ -4,24 +4,55 @@ ctDynamicsSL has th ability to be accessed via RESTful API calls.
 
 # Prerequisites
 
-To start with ctDynamicsSL, you must 
+To start with ctDynamicsSL, you must have the following: 
+
 * Have a license to ctDynamicsSL web services
 * Have the web services installed and configured to integrate to your Dynamics SL ERP system
+* APIKey:  This is an application API key your ctDynamicsSL administrator will give you
+* Secret Key:  This is a secret pass code your ctDynamicsSL administrator will give you
 
-Accounts Receivable Web Service
-=======
+## Accounts Receivable Web Service
 ### Authentication for ctDynamicsSL requires the following
-* APIKey
-* Secret Key
+You must pass a custom HTTP Header called Authentication to the web REST API service.  This is in the form of the following information:
 
 
-### Create a Payment Entry
+- Create a string with the following information:  APIKey + ',' + SecretKey
+- Take the output of the that string and a Base64 string.
+
+And example in c# to create such a string is as follows:
+
+	System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(APIKey + "," + SecretKey));
+
+You would then pass that as an HTTP Header called "Authorization".  An example in c# would be as following:
+
+
+    HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://myServer/myEndpoint);
+    request.Method = "POST";
+    request.ContentType = "application/json";
+	request.Headers.Add("Authorization", "[MyBase64AuthString]");
+
+Looking at the code example, you would replace the *[MyBase64AuthString]* with your authorization string.  You would also change the URL in the WebRequest.Create() to match the endpoint you are accessing.
+
+
+
+## Payment Entry
+### Managing Screens, Batches, ARDoc, and ARTran
+#### Create a Payment Entry
 Payment Entry requires several steps to create a payment entry:
+
 1. create the screen object
 2. update the batch and ARDoc objects for overrides you want to make
 3. create ARTran records
 4. Save the screen back to the web service
  
+
+#### Retrieve an existing payment entry screen
+* **Description**: Retrieves an existing payment entry screen based on the batNbr passed
+* **Endpoint**: /api/accountsReceivable/paymentEntry/screen/{batNbr]
+* **HTTP Method**: ``GET``
+* **Request PayLoad**: No Payload
+* **Response PayLoad**: ``PaymentEntryScreen`` object returned that matches the batNbr passed
+* **Online Help**: [Help]()
 
 #### Get new Payment Entry Screen from a template
 * **Description**: Creates a new Payment Entry screen and fills in defaults.  You can pass a template screen object for initial values.
@@ -56,6 +87,17 @@ Payment Entry requires several steps to create a payment entry:
 * **Request PayLoad**: ``PaymentEntryScreen``
 * **Response PayLoad**: ``PaymentEntryScreen`` object returned with defaults created
 * **Online Help**: [Help]()
+
+### PV Lookups
+ctDynamicsSL web services also allow you to do your typical PV Lookups for certain DynamicsSL fields.
+#### Retrieve projects
+* **Description**: Retrieve all projects matching the partial projectID search.  The projectID is automatically wildcarded on both the left and right of the string you pass.
+* **Endpoint**: /api/accountsReceivable/paymentEntry/pvLookup/projects?projectID={projectID}
+* **HTTP Method**: ``GET``
+* **Request PayLoad**: No Payload
+* **Response PayLoad**: Collection of [PJPROJ]() objects.
+* **Online Help**: [Help]()
+
 
 # HTTP Request PayLoads
 
