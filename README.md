@@ -1,4 +1,4 @@
-ctDynamicsSL
+ctAPI Dynamics SL Web Services Toolkit
 =======
 Catalina Technology's ctAPI™ web services for Dynamics SL provides an enterprise ready solution for accessing your Dynamics SL back office from any application that can connect to a web service. 
 
