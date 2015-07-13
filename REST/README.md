@@ -8,19 +8,19 @@ ctAPI has the ability to be accessed via RESTful API calls.  In order to use the
 
 ## Web Services
 * [Accounts Receivable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Receivable-RESTful-API-Web-Service)
-* [Accounts Payable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Payable-RESTful-API-Web-Service)
 * [Inventory](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Inventory-RESTful-API-Web-Service)
 * [Customers](https://github.com/CatalinaTechnology/ctAPI/wiki/Customers-RESTful-API-Web-Service)
-* [Invoice and Memo]()
-* [Journal Transactions]()
-* [Sales Orders]()
-* [Project Charge Entry]()
-* [Purchase Orders and PO Receipts]()
-* [Service Call Entry]()
-* [Service Call Invoice Entry]()
-* [Service Call Contract Entry]()
-* [Site Maintenance]()
-* [Tax Maintenance]()
-* [Voucher and Adjustment Entry]()
+* [Accounts Payable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Payable-RESTful-API-Web-Service) *Documentation in Process*
+* [Invoice and Memo]() *Documentation in Process*
+* [Journal Transactions]() *Documentation in Process*
+* [Sales Orders]() *Documentation in Process*
+* [Project Charge Entry]() *Documentation in Process*
+* [Purchase Orders and PO Receipts]() *Documentation in Process*
+* [Service Call Entry]() *Documentation in Process*
+* [Service Call Invoice Entry]() *Documentation in Process*
+* [Service Call Contract Entry]() *Documentation in Process*
+* [Site Maintenance]() *Documentation in Process*
+* [Tax Maintenance]() *Documentation in Process*
+* [Voucher and Adjustment Entry]() *Documentation in Process*
 
 
