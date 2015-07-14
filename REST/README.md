@@ -6,10 +6,12 @@ ctAPI has the ability to be accessed via RESTful API calls.  In order to use the
 * [Prerequisites](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/ctDynamicsSL-RESTful-API-Overview#prerequisites)
 * [Authentication](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/ctDynamicsSL-RESTful-API-Overview#authentication-for-ctdynamicssl-requires-the-following)
 
-## Web Services
+## Web Services Documentation
 * [Accounts Receivable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Receivable-RESTful-API-Web-Service)
-* [Inventory](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Inventory-RESTful-API-Web-Service)
 * [Customers](https://github.com/CatalinaTechnology/ctAPI/wiki/Customers-RESTful-API-Web-Service)
+* [Inventory](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Inventory-RESTful-API-Web-Service)
+
+### Documentation in progress
 * [Accounts Payable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Payable-RESTful-API-Web-Service) *Documentation in Process*
 * [Invoice and Memo]() *Documentation in Process*
 * [Journal Transactions]() *Documentation in Process*
