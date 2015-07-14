@@ -14,7 +14,6 @@ ctAPI has the ability to be accessed via RESTful API calls.  In order to use the
 
 ### Documentation in progress
 * [Accounts Payable](https://github.com/CatalinaTechnology/ctDynamicsSL/wiki/Accounts-Payable-RESTful-API-Web-Service) *Documentation in Process*
-
 * [Journal Transactions]() *Documentation in Process*
 * [Sales Orders]() *Documentation in Process*
 * [Project Charge Entry]() *Documentation in Process*
