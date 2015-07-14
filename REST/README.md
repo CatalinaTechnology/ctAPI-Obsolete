@@ -25,4 +25,8 @@ ctAPI has the ability to be accessed via RESTful API calls.  In order to use the
 * [Tax Maintenance]() *Documentation in Process*
 * [Voucher and Adjustment Entry]() *Documentation in Process*
 
+## Example client code
+* [Accounts Receivable REST Client](https://github.com/CatalinaTechnology/ctAPI/tree/master/REST/Examples/accountsReceivableRESTClient)
+ 
+
 
