@@ -12,7 +12,7 @@ The way you would be able to call this is via the following path:
 
 The method will then read the HttpRequestMessage and convert it to a string.
 
-Another NOTE:  I am using IIS Express in this, so it isnt accessible to something off of localhost.  If you want to debug, run this as Local IIS or install it on a server (or Azure) where you can remote debug.
+Another NOTE:  I am using IIS Express in this, so it isnt accessible to something outside of localhost.  If you want to debug, run this as Local IIS or install it on a server (or Azure) where you can remote debug.
 
 I am also not doing anything with the data I am receiving.  You can always deserialize to an object (using newtonsoft json) or save to a file or whatever you want. 
 
