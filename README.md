@@ -12,4 +12,4 @@ For product information click [here](http://www.catalinatechnology.com/ws.aspx)
 You can see detailed developers information about the web services here
 
 * [RESTful API](https://github.com/CatalinaTechnology/ctAPI/wiki/ctAPI-RESTful-API)
-* [SOAP based web services]()
+* [SOAP based web services](http://www.catalinatechnology.com/?CTDYNAMICSSL_DOCUMENTATION)
